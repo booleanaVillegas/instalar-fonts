@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;  
+}
+
+section {
+    width: 100%;
+    height: 600px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#main-title{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30pt;
+    margin: 0;
+}
+
+.subtitles {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
+    margin: 0;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
